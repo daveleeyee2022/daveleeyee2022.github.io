@@ -29,6 +29,8 @@ CCTV16 25M2160,http://39.135.55.105:6610/PLTV/88888888/224/3221227162/index.m3u8
 无线财经,http://ye23.win/iptv/tvb.php?id=2
 无线财经,http://111.229.84.232/yulin/tvb.php?id=2
 翡翠台J1,https://bcovlive-a.akamaihd.net/f23dfe49b06b45d8878b55b4b6909595/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8
+TVBJ2①线路HD,http://120.84.96.43:808/hls/86/index.m3u8
+TVBJ2②线路HD,http://120.84.96.33:808/hls/86/index.m3u8
 
 🍊Bilibili(ljk播放器),#genre#
 24小时连播蓝胖子,http://zzy789.xyz/bili.php?id=482946
