@@ -18,8 +18,6 @@
 翡翠台J1,https://bcovlive-a.akamaihd.net/f23dfe49b06b45d8878b55b4b6909595/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8
 TVBJ2 HD,http://120.84.96.43:808/hls/86/index.m3u8
 TVBJ2 HD,http://120.84.96.33:808/hls/86/index.m3u8
-纯享4K,http://39.134.115.163:8080/PLTV/88888910/224/3221225786/index.m3u8
-欢笑4K,http://111.20.33.70/PLTV/88888893/224/3221226582/index.m3u8
 
 央视,#genre#
 CCTV1,http://111.20.33.70/PLTV/88888893/224/3221226231/index.m3u8
@@ -263,6 +261,17 @@ CCTV17,http://223.151.51.27:85/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&aut
 CCTV17,http://111.20.33.70/PLTV/88888893/224/3221226198/index.m3u8
 CCTV17,http://39.135.138.58:18890/PLTV/88888910/224/3221225908/index.m3u8codeyj
 CCTV17,http://39.134.32.103:6610/270000001111/1110000391/index.m3u8?IASHttpSessionId=OTT
+
+💝4K台,#genre#
+欢笑剧场4k,http://111.20.33.93/PLTV/88888893/224/3221226582/index.m3u8
+爱自然,https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
+影院4k,http://epg.112114.xyz/douyu/9249162
+4k超高清,https://p.ggiptv.com/v/4k.m3u8
+4k超高清,http://open.live-web.timetv.cn/live03/cctv4k.m3u8
+纯享4K,http://39.135.32.10:6610/000000001000/HD-20M-2160P-chunxiang4k/1.m3u8?IASHttpSessionId=OTT
+纯享4K,http://39.134.115.163:8080/PLTV/88888910/224/3221225786/index.m3u8
+苏州4k,http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
+北京4kIPTV,http://39.134.134.85/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226550/index.m3u8?servicetype=1&icpid=&accounttype=1&limitflux=-1&limitdur=-1&GuardEncType=2&accountinfo=3QGHZfaujB8rRCsAsCvwpxxlHr4QY7xmzJA0CWZ2m2oFrdR%2B0WqiDAHoOrKmOBjJo1DAVyGMxV75D0k9A8UW52%2FrO%2F0g1FiOsgmHLskIhGej57NNTIcVyR%2FC8%2FqFakBO3%2B2%2FLci77HWE%2FMDUdCEgEA%3D%3D%3A20211105223205%2C10000100000000050000000003887500%2CF6D75A298389DD1E7C3B7D397327CA23%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2CEND
 
 其它,#genre#
 CHC电影,http://222.132.191.125:9901/tsfile/live/1010_1.m3u8
