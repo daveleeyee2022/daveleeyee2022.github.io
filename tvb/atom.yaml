@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2024-06-26 23:11:51
+#  创建时间：2024-07-05 17:06:32
 #  模版：ACL4SSR_Mini_Fallback
-#  节点数量：13
+#  节点数量：38
 #-------------------------------------------------------------#
 #
 mixed-port: 7890
@@ -22,18 +22,44 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"type":"vless","name":"US美国145ms_1","server":"154.17.224.140","port":31890,"uuid":"e8899a8e-729a-43bc-aebf-95e12c6c6db6","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vless.443888.xyz","ws-opts":{"path":"/?ed=2560","headers":{"host":"vless.443888.xyz"}}}
-  - {"type":"vless","name":"US美国138ms_2","server":"154.17.231.142","port":28640,"uuid":"e8899a8e-729a-43bc-aebf-95e12c6c6db6","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vless.443888.xyz","ws-opts":{"path":"/?ed=2560","headers":{"host":"vless.443888.xyz"}}}
-  - {"type":"vless","name":"US美国140ms","server":"154.17.224.177","port":11821,"uuid":"e8899a8e-729a-43bc-aebf-95e12c6c6db6","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vless.443888.xyz","ws-opts":{"path":"/?ed=2560","headers":{"host":"vless.443888.xyz"}}}
-  - {"type":"vless","name":"US美国145ms_2","server":"154.21.91.92","port":10000,"uuid":"e8899a8e-729a-43bc-aebf-95e12c6c6db6","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vless.443888.xyz","ws-opts":{"path":"/?ed=2560","headers":{"host":"vless.443888.xyz"}}}
-  - {"type":"vless","name":"US美国141ms_1","server":"154.17.230.102","port":50885,"uuid":"e8899a8e-729a-43bc-aebf-95e12c6c6db6","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vless.443888.xyz","ws-opts":{"path":"/?ed=2560","headers":{"host":"vless.443888.xyz"}}}
-  - {"type":"vless","name":"US美国147ms","server":"154.21.93.4","port":53018,"uuid":"e8899a8e-729a-43bc-aebf-95e12c6c6db6","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vless.443888.xyz","ws-opts":{"path":"/?ed=2560","headers":{"host":"vless.443888.xyz"}}}
-  - {"type":"vless","name":"US美国142ms_1","server":"154.21.88.85","port":14257,"uuid":"e8899a8e-729a-43bc-aebf-95e12c6c6db6","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vless.443888.xyz","ws-opts":{"path":"/?ed=2560","headers":{"host":"vless.443888.xyz"}}}
-  - {"type":"vless","name":"US美国148ms","server":"154.21.95.60","port":881,"uuid":"e8899a8e-729a-43bc-aebf-95e12c6c6db6","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vless.443888.xyz","ws-opts":{"path":"/?ed=2560","headers":{"host":"vless.443888.xyz"}}}
-  - {"type":"vless","name":"US美国151ms","server":"154.21.95.113","port":54915,"uuid":"e8899a8e-729a-43bc-aebf-95e12c6c6db6","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vless.443888.xyz","ws-opts":{"path":"/?ed=2560","headers":{"host":"vless.443888.xyz"}}}
-  - {"type":"vless","name":"US美国142ms_2","server":"154.17.10.111","port":14515,"uuid":"e8899a8e-729a-43bc-aebf-95e12c6c6db6","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vless.443888.xyz","ws-opts":{"path":"/?ed=2560","headers":{"host":"vless.443888.xyz"}}}
-  - {"type":"vless","name":"US美国141ms_2","server":"154.17.0.43","port":18935,"uuid":"e8899a8e-729a-43bc-aebf-95e12c6c6db6","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vless.443888.xyz","ws-opts":{"path":"/?ed=2560","headers":{"host":"vless.443888.xyz"}}}
-  - {"type":"vless","name":"US美国145ms_3","server":"154.17.8.128","port":50000,"uuid":"e8899a8e-729a-43bc-aebf-95e12c6c6db6","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vless.443888.xyz","ws-opts":{"path":"/?ed=2560","headers":{"host":"vless.443888.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--01--ASN906--LosAngeles--AA","server":"154.21.88.85","port":14257,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--02--ASN906--LosAngeles--AA","server":"154.21.81.61","port":38857,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--03--ASN906--LosAngeles--AA","server":"154.21.90.125","port":24277,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--04--ASN906--LosAngeles--AA","server":"154.21.94.95","port":18204,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--05--ASN906--LosAngeles--AA","server":"154.21.93.95","port":13939,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--06--ASN906--LosAngeles--AA","server":"154.21.81.59","port":59265,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--07--ASN906--LosAngeles--AA","server":"154.21.94.105","port":8883,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--08--ASN906--LosAngeles--AA","server":"154.21.94.105","port":5000,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--09--ASN906--LosAngeles--AA","server":"154.17.0.43","port":18935,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--10--ASN906--LosAngeles--AA","server":"154.17.2.10","port":9928,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--11--ASN906--LosAngeles--AA","server":"154.17.224.177","port":11821,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--12--ASN906--LosAngeles--AA","server":"154.21.87.33","port":50787,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--13--ASN906--LosAngeles--AA","server":"154.17.229.161","port":46749,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--14--ASN906--LosAngeles--AA","server":"154.21.82.84","port":8443,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--15--ASN906--LosAngeles--AA","server":"154.21.88.43","port":18328,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--16--ASN906--LosAngeles--AA","server":"154.17.224.140","port":35940,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--17--ASN906--LosAngeles--AA","server":"154.17.226.32","port":62096,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--18--ASN906--LosAngeles--AA","server":"154.17.24.56","port":46135,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--19--ASN906--LosAngeles--AA","server":"154.21.91.92","port":10000,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--20--ASN906--LosAngeles--AA","server":"154.17.230.139","port":443,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--21--ASN906--LosAngeles--AA","server":"154.17.227.95","port":43791,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--22--ASN906--LosAngeles--AA","server":"154.17.229.161","port":46697,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--23--ASN906--LosAngeles--AA","server":"154.17.229.161","port":13277,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--24--ASN906--LosAngeles--AA","server":"154.17.229.161","port":28557,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--25--ASN906--LosAngeles--AA","server":"154.17.224.140","port":31890,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--26--ASN906--LosAngeles--AA","server":"154.17.231.142","port":28640,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--27--ASN906--LosAngeles--AA","server":"154.17.5.18","port":49887,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--28--ASN906--LosAngeles--AA","server":"154.21.80.55","port":13171,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--29--ASN906--LosAngeles--AA","server":"154.17.227.69","port":10000,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--30--ASN906--LosAngeles--AA","server":"154.17.231.6","port":34237,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--31--ASN906--LosAngeles--AA","server":"154.17.229.161","port":48960,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--32--ASN906--LosAngeles--AA","server":"154.17.0.80","port":564,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--33--ASN906--LosAngeles--AA","server":"154.17.10.111","port":58475,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--34--ASN906--LosAngeles--AA","server":"154.17.30.48","port":23232,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--35--ASN906--LosAngeles--AA","server":"154.17.226.204","port":31380,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--36--ASN906--LosAngeles--AA","server":"154.17.231.85","port":24002,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--37--ASN906--LosAngeles--AA","server":"154.17.230.112","port":8443,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"vlpg.355166.xyz--240704--38--ASN906--LosAngeles--AA","server":"154.17.230.102","port":50885,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -41,53 +67,131 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - DIRECT
-      - US美国145ms_1
-      - US美国138ms_2
-      - US美国140ms
-      - US美国145ms_2
-      - US美国141ms_1
-      - US美国147ms
-      - US美国142ms_1
-      - US美国148ms
-      - US美国151ms
-      - US美国142ms_2
-      - US美国141ms_2
-      - US美国145ms_3
+      - vlpg.355166.xyz--240704--01--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--02--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--03--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--04--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--05--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--06--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--07--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--08--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--09--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--10--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--11--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--12--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--13--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--14--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--15--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--16--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--17--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--18--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--19--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--20--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--21--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--22--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--23--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--24--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--25--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--26--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--27--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--28--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--29--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--30--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--31--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--32--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--33--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--34--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--35--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--36--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--37--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--38--ASN906--LosAngeles--AA
   - name: ♻️ 自动选择
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - US美国145ms_1
-      - US美国138ms_2
-      - US美国140ms
-      - US美国145ms_2
-      - US美国141ms_1
-      - US美国147ms
-      - US美国142ms_1
-      - US美国148ms
-      - US美国151ms
-      - US美国142ms_2
-      - US美国141ms_2
-      - US美国145ms_3
+      - vlpg.355166.xyz--240704--01--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--02--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--03--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--04--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--05--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--06--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--07--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--08--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--09--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--10--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--11--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--12--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--13--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--14--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--15--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--16--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--17--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--18--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--19--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--20--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--21--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--22--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--23--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--24--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--25--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--26--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--27--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--28--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--29--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--30--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--31--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--32--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--33--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--34--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--35--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--36--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--37--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--38--ASN906--LosAngeles--AA
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - US美国145ms_1
-      - US美国138ms_2
-      - US美国140ms
-      - US美国145ms_2
-      - US美国141ms_1
-      - US美国147ms
-      - US美国142ms_1
-      - US美国148ms
-      - US美国151ms
-      - US美国142ms_2
-      - US美国141ms_2
-      - US美国145ms_3
+      - vlpg.355166.xyz--240704--01--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--02--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--03--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--04--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--05--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--06--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--07--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--08--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--09--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--10--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--11--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--12--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--13--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--14--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--15--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--16--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--17--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--18--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--19--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--20--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--21--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--22--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--23--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--24--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--25--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--26--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--27--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--28--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--29--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--30--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--31--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--32--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--33--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--34--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--35--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--36--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--37--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--38--ASN906--LosAngeles--AA
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -106,18 +210,44 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔯 故障转移
-      - US美国145ms_1
-      - US美国138ms_2
-      - US美国140ms
-      - US美国145ms_2
-      - US美国141ms_1
-      - US美国147ms
-      - US美国142ms_1
-      - US美国148ms
-      - US美国151ms
-      - US美国142ms_2
-      - US美国141ms_2
-      - US美国145ms_3
+      - vlpg.355166.xyz--240704--01--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--02--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--03--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--04--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--05--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--06--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--07--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--08--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--09--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--10--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--11--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--12--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--13--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--14--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--15--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--16--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--17--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--18--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--19--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--20--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--21--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--22--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--23--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--24--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--25--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--26--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--27--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--28--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--29--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--30--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--31--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--32--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--33--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--34--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--35--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--36--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--37--ASN906--LosAngeles--AA
+      - vlpg.355166.xyz--240704--38--ASN906--LosAngeles--AA
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1837,13 +1967,10 @@ rules:
   - DOMAIN-SUFFIX,edgedatg.com,🚀 节点选择
   - DOMAIN-SUFFIX,go.com,🚀 节点选择
   - DOMAIN-KEYWORD,abematv.akamaized.net,🚀 节点选择
-  - DOMAIN,api-abematv.bucketeer.jp,🚀 节点选择
-  - DOMAIN-SUFFIX,abema-tv.com,🚀 节点选择
   - DOMAIN-SUFFIX,abema.io,🚀 节点选择
   - DOMAIN-SUFFIX,abema.tv,🚀 节点选择
   - DOMAIN-SUFFIX,ameba.jp,🚀 节点选择
   - DOMAIN-SUFFIX,hayabusa.io,🚀 节点选择
-  - DOMAIN-SUFFIX,hayabusa.media,🚀 节点选择
   - DOMAIN-SUFFIX,c4assets.com,🚀 节点选择
   - DOMAIN-SUFFIX,channel4.com,🚀 节点选择
   - DOMAIN-KEYWORD,avoddashs,🚀 节点选择
@@ -2347,6 +2474,7 @@ rules:
   - DOMAIN-SUFFIX,anthropic.com,🚀 节点选择
   - DOMAIN-SUFFIX,apache.org,🚀 节点选择
   - DOMAIN-SUFFIX,docker.com,🚀 节点选择
+  - DOMAIN-SUFFIX,docker.io,🚀 节点选择
   - DOMAIN-SUFFIX,elastic.co,🚀 节点选择
   - DOMAIN-SUFFIX,elastic.com,🚀 节点选择
   - DOMAIN-SUFFIX,gcr.io,🚀 节点选择
