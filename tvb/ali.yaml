@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2024-07-23 21:05:31
+#  创建时间：2024-07-24 05:43:47
 #  模版：ACL4SSR_Mini_Fallback
-#  节点数量：5
+#  节点数量：6
 #-------------------------------------------------------------#
 #
 mixed-port: 7890
@@ -22,11 +22,12 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"type":"vless","name":"TNT--240718--01--ASN45102--HongKong--AA","server":"47.76.33.40","port":2053,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
-  - {"type":"vless","name":"TNT--240718--02--ASN45102--HongKong--AA","server":"47.76.204.92","port":443,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
-  - {"type":"vless","name":"TNT--240718--03--ASN45102--HongKong--AA","server":"47.76.33.40","port":2087,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
-  - {"type":"vless","name":"TNT--240718--04--ASN45102--HongKong--AA","server":"47.76.178.146","port":8443,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
-  - {"type":"vless","name":"TNT--240718--05--ASN45102--HongKong--AA","server":"47.76.178.146","port":2096,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"TNT--240718--01--ASN45102--HongKong--AA","server":"47.76.178.146","port":2096,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"TNT--240718--02--ASN45102--HongKong--AA","server":"47.76.178.146","port":8443,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"TNT--240718--03--ASN45102--HongKong--AA","server":"47.76.178.146","port":2083,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"TNT--240718--04--ASN45102--HongKong--AA","server":"47.76.189.214","port":443,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"TNT--240718--05--ASN45102--HongKong--AA","server":"47.243.126.79","port":443,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"TNT--240718--06--ASN45102--HongKong--AA","server":"47.76.204.92","port":443,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -39,6 +40,7 @@ proxy-groups:
       - TNT--240718--03--ASN45102--HongKong--AA
       - TNT--240718--04--ASN45102--HongKong--AA
       - TNT--240718--05--ASN45102--HongKong--AA
+      - TNT--240718--06--ASN45102--HongKong--AA
   - name: ♻️ 自动选择
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -50,6 +52,7 @@ proxy-groups:
       - TNT--240718--03--ASN45102--HongKong--AA
       - TNT--240718--04--ASN45102--HongKong--AA
       - TNT--240718--05--ASN45102--HongKong--AA
+      - TNT--240718--06--ASN45102--HongKong--AA
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -60,6 +63,7 @@ proxy-groups:
       - TNT--240718--03--ASN45102--HongKong--AA
       - TNT--240718--04--ASN45102--HongKong--AA
       - TNT--240718--05--ASN45102--HongKong--AA
+      - TNT--240718--06--ASN45102--HongKong--AA
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -83,6 +87,7 @@ proxy-groups:
       - TNT--240718--03--ASN45102--HongKong--AA
       - TNT--240718--04--ASN45102--HongKong--AA
       - TNT--240718--05--ASN45102--HongKong--AA
+      - TNT--240718--06--ASN45102--HongKong--AA
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
