@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2024-12-17 13:22:53
+#  创建时间：2024-12-20 18:50:10
 #  模版：v2rayse默认模版
-#  节点数量：11
+#  节点数量：6
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,17 +13,12 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vless","name":"TNT--241217--01--ASN906--LAX","server":"154.17.10.111","port":46146,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
-  - {"type":"vless","name":"TNT--241217--02--ASN906--LAX","server":"154.21.93.92","port":37955,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
-  - {"type":"vless","name":"TNT--241217--03--ASN906--LAX","server":"154.21.94.99","port":45067,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
-  - {"type":"vless","name":"TNT--241217--04--ASN906--LAX","server":"154.21.94.99","port":45067,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
-  - {"type":"vless","name":"TNT--241217--05--ASN906--LAX","server":"154.21.84.88","port":13452,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
-  - {"type":"vless","name":"TNT--241217--06--ASN906--LAX","server":"154.17.0.70","port":12356,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
-  - {"type":"vless","name":"TNT--241217--07--ASN906--LAX","server":"154.17.25.7","port":50376,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
-  - {"type":"vless","name":"TNT--241217--08--ASN906--LAX","server":"154.17.30.48","port":48899,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
-  - {"type":"vless","name":"TNT--241217--09--ASN906--LAX","server":"154.21.87.106","port":22989,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
-  - {"type":"vless","name":"TNT--241217--10--ASN906--LAX","server":"154.17.30.48","port":33222,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
-  - {"type":"vless","name":"TNT--241217--11--ASN906--LAX","server":"154.17.31.123","port":44300,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2048","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"TNT--241217--01--ASN906--LAX","server":"154.21.84.88","port":13452,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2560","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"TNT--241217--02--ASN906--LAX","server":"154.17.0.70","port":12356,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2560","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"TNT--241217--03--ASN906--LAX","server":"154.17.10.111","port":46146,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2560","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"TNT--241217--04--ASN906--LAX","server":"154.17.30.48","port":48899,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2560","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"TNT--241217--05--ASN906--LAX","server":"154.17.31.123","port":44300,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2560","headers":{"host":"vlpg.355166.xyz"}}}
+  - {"type":"vless","name":"TNT--241217--06--ASN906--LAX","server":"154.17.30.48","port":33222,"uuid":"9570af4b-dea5-4dbc-bfb0-b1d1eba019f9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"vlpg.355166.xyz","ws-opts":{"path":"/?ed=2560","headers":{"host":"vlpg.355166.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -36,11 +31,6 @@ proxy-groups:
       - TNT--241217--04--ASN906--LAX
       - TNT--241217--05--ASN906--LAX
       - TNT--241217--06--ASN906--LAX
-      - TNT--241217--07--ASN906--LAX
-      - TNT--241217--08--ASN906--LAX
-      - TNT--241217--09--ASN906--LAX
-      - TNT--241217--10--ASN906--LAX
-      - TNT--241217--11--ASN906--LAX
   - name: ♻️ 自动选择
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -53,11 +43,6 @@ proxy-groups:
       - TNT--241217--04--ASN906--LAX
       - TNT--241217--05--ASN906--LAX
       - TNT--241217--06--ASN906--LAX
-      - TNT--241217--07--ASN906--LAX
-      - TNT--241217--08--ASN906--LAX
-      - TNT--241217--09--ASN906--LAX
-      - TNT--241217--10--ASN906--LAX
-      - TNT--241217--11--ASN906--LAX
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -70,11 +55,6 @@ proxy-groups:
       - TNT--241217--04--ASN906--LAX
       - TNT--241217--05--ASN906--LAX
       - TNT--241217--06--ASN906--LAX
-      - TNT--241217--07--ASN906--LAX
-      - TNT--241217--08--ASN906--LAX
-      - TNT--241217--09--ASN906--LAX
-      - TNT--241217--10--ASN906--LAX
-      - TNT--241217--11--ASN906--LAX
   - name: 📲 电报信息
     type: select
     proxies:
@@ -86,11 +66,6 @@ proxy-groups:
       - TNT--241217--04--ASN906--LAX
       - TNT--241217--05--ASN906--LAX
       - TNT--241217--06--ASN906--LAX
-      - TNT--241217--07--ASN906--LAX
-      - TNT--241217--08--ASN906--LAX
-      - TNT--241217--09--ASN906--LAX
-      - TNT--241217--10--ASN906--LAX
-      - TNT--241217--11--ASN906--LAX
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -102,11 +77,6 @@ proxy-groups:
       - TNT--241217--04--ASN906--LAX
       - TNT--241217--05--ASN906--LAX
       - TNT--241217--06--ASN906--LAX
-      - TNT--241217--07--ASN906--LAX
-      - TNT--241217--08--ASN906--LAX
-      - TNT--241217--09--ASN906--LAX
-      - TNT--241217--10--ASN906--LAX
-      - TNT--241217--11--ASN906--LAX
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -118,11 +88,6 @@ proxy-groups:
       - TNT--241217--04--ASN906--LAX
       - TNT--241217--05--ASN906--LAX
       - TNT--241217--06--ASN906--LAX
-      - TNT--241217--07--ASN906--LAX
-      - TNT--241217--08--ASN906--LAX
-      - TNT--241217--09--ASN906--LAX
-      - TNT--241217--10--ASN906--LAX
-      - TNT--241217--11--ASN906--LAX
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -151,11 +116,6 @@ proxy-groups:
       - TNT--241217--04--ASN906--LAX
       - TNT--241217--05--ASN906--LAX
       - TNT--241217--06--ASN906--LAX
-      - TNT--241217--07--ASN906--LAX
-      - TNT--241217--08--ASN906--LAX
-      - TNT--241217--09--ASN906--LAX
-      - TNT--241217--10--ASN906--LAX
-      - TNT--241217--11--ASN906--LAX
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
